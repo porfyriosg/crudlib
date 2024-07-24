@@ -1,8 +1,9 @@
 from setuptools import setup, find_packages
+from crudlib import __version__
 
 setup(
     name="crudlib",
-    version="0.1.4",
+    version=__version__,
     packages=find_packages(),
     install_requires=[
         "SQLAlchemy",

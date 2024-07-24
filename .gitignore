@@ -25,6 +25,8 @@ share/python-wheels/
 *.venv/
 .installed.cfg
 *.egg
+*.db
+*.log
 *.env
 MANIFEST
 
