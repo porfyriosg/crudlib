@@ -3,17 +3,17 @@ CRUD Python library using SQLAlchemy ORM
 
 # FOLDER STRUCTURE
 ```
-crud_library/
-├── crud/
+crudlib/
+├── crudlib/
 │   ├── __init__.py
 │   ├── models.py
 │   ├── database.py
-│   ├── crud_operations.py
+│   ├── core.py
 ├── tests/
 │   ├── __init__.py
-│   ├── test_crud_operations.py
+│   ├── test_crud.py
 ├── logs/
-│   └── app.log
+│   └── log_Y_m_d.log
 ├── README.md
 ├── setup.py
 ├── requirements.txt
