@@ -2,7 +2,7 @@ import logging
 import time
 from sqlalchemy import create_engine
 from sqlalchemy.orm import sessionmaker, scoped_session
-from crudlib import Config
+from crudlib.config import Config
 from crudlib.models import Base
 
 DATABASE_URL = Config.get_db_url()

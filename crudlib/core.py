@@ -40,7 +40,6 @@ class CRUD(DB):
         Updates entries in the specified table based on filters.
 
         Args:
-            db (Session): SQLAlchemy session.
             tablename (str): The name of the table.
             filters (dict): Filters for the query.
             data (dict): Data to update.
@@ -57,7 +56,6 @@ class CRUD(DB):
         Deletes entries from the specified table based on filters.
 
         Args:
-            db (Session): SQLAlchemy session.
             tablename (str): The name of the table.
             filters (dict): Filters for the query.
 
